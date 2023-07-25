@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee</title>
+<style>
+    table,td,tr {
+        border-collapse: collapse;
+        border : 2px solid black;
+    }
+</style>
+</head>
+<body>
+    <form>
+    <table bgcolor="lightpink" width="80%">
+        <tr>
+            <td><label for="name">Name  </label></td>
+            <td><input type="text" name="name" id="name" required autofocus/></td>
+        </tr>
+        <tr>
+            <td><label>Employee Code  </label></td>
+            <td><input type="text" name="ename" id="eid" required maxlength="4" size="1%"></td>
+        </tr>
+        <tr>
+            <td><label>Department  </label></td>
+            <td><input type="radio" name="Department" id="Admin" value="Admin"/><label for="Admin">Admin</label><br>
+            <input type="radio" name="Department" id="HR" value="HR"/><label for="HR">HR</label><br>
+            <input type="radio" name="Department" id="Technical" value="Technical"/><label for="Technical">Technical</label><br>
+            <input type="radio" name="Department" id="Accounts" value="Accounts"/><label for="Accounts">Accounts</label></td><br>    
+        </tr>
+        <tr>
+            <td><label>Date of Joining</label></td>
+            <td><input type="date" name="name" id="name" value="name"/></td>
+        </tr>
+        <tr>
+            <td><label>Address</label></td>
+            <td><textarea name="name" id="name" row="5" col="20" ></textarea></td>
+        </tr>
+        <tr>
+            <td><label>Training Program Attended</label></td>
+            <td><input type="checkbox" name="Training Program Attended" id="HTML/DHTML" value="HTML/DHTML"/><label>HTML/DHTML</label><br>
+            <input type="checkbox" name="Training Program Attended" id="JAVA" value="JAVA"/><label>JAVA</label><br>
+            <input type="checkbox" name="Training Program Attended" id="CLIENT/SERVER" value="CLIENT/SERVER"/><label>CLIENT/SERVER</label><br>
+            <input type="checkbox" name="Training Program Attended" id=".NET" value=".NET"/><label>.NET</label></td>
+        </tr>
+        <tr>
+            <td><label>Training Programmes need to Attend</label></td>
+            <td><select name="course" id="course">
+             <option value="JAVASCRIPT">JAVASCRIPT</option>
+             <option value="JSTRUTS">JSTRUTS</option>   
+            </select></td>
+        </tr>
+        <tr>
+            <td><label>Send the Information at</label></td>
+            <td><a href="mailto:kedarganmote2000@gmail.com" target="_blank">kedarganmote2000@gmail.com</a></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
